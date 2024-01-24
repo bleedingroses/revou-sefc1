@@ -4,10 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ridho's Site</title>
+    <style>
+        div h1 {
+            margin-top: 75px;
+            margin-bottom: 50px;
+        }
+        div p {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #pekerjaan {
+            width: 187px;
+        }
+        #pekerjaan option {
+            width: 187px;
+        }
+        #nama {
+            width: 180px;
+        }
+        #pesan {
+            width: 180px;
+            height: 60px;
+        }
+        #reset button {
+            width: 315px;         
+        }
+    </style>
 </head>
 <body>
+    <div style="text-align:center">
+        <h1>Membuat Form</h1>
+        <p>Ini adalah materi <b><i>RevoU: Software Engineer Fundamental Course</i></b> di hari kedua, yaitu membuat form di HTML.</p><br><br><br><hr>
+        <h3>Contoh Form</h3><br>
+    </div>
     <form action="" method="post">
-        <table border="0" cellspacing="0" cellpadding="5">
+        <table class="center" border="0" cellspacing="0" cellpadding="13">
             <tr>
                 <td>
                     <label for="nama">Nama :</label>
@@ -47,7 +82,24 @@
                     </select>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <label for="pesan">Pesan :</label>
+                </td>
+                <td>
+                    <textarea id="pesan"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="reset">
+                    <button type="reset">Kirim</button>
+                </td>
+            </tr>
         </table>
     </form>
+    <br><hr><br><br>
+    <div style="text-align:center">
+        <p><a href="link.html">Halaman Sebelumnya</a> | <a href="index.html">Halaman Utama</a> | <a href="tabel2.html">Halaman Selanjutnya</a></p><br><br>
+    </div>
 </body>
 </html>

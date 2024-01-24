@@ -5,33 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ridho's Site</title>
     <style>
+        div h1 {
+            margin-top: 75px;
+            margin-bottom: 50px;
+        }
+        div p {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
         table, th, td
         {
+            
             border: 1px solid black;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <th>Asal</th>
-            <th>Domisili</th>
-        </tr>
-        <tr>
-            <td colspan="2"><center>Jakarta</center>
-            </td>
-        </tr>
-    </table><br><hr>
-    <table>
-        <tr>
-            <th rowspan="2">Jakarta</th>
-            <td>- A -</td>
-            <td>- B -</td>
-        </tr>
-        <tr>
-            <td>- C -</td>
-            <td>- D -</td>
-        </tr>
-    </table>
+    <div style="text-align:center">
+        <h1>Membuat Tabel</h1>
+        <p>Ini adalah materi <b><i>RevoU: Software Engineer Fundamental Course</i></b> di hari kedua, yaitu membuat halaman tabel di HTML.</p><br><br><br>
+        <hr>
+        <h3>Contoh Tabel Menggunakan Colspan</h3><br>
+        <table class="center">
+            <tr>
+                <th>Asal</th>
+                <th>Domisili</th>
+            </tr>
+            <tr>
+                <td colspan="2"><center>Jakarta</center></td>
+            </tr>
+        </table><br><hr>
+        <h3>Contoh Tabel Menggunakan Rowspan</h3><br>
+        <table class="center">
+            <tr>
+                <th rowspan="2">Jakarta</th>
+                <td>- A -</td>
+                <td>- B -</td>
+            </tr>
+            <tr>
+                <td>- C -</td>
+                <td>- D -</td>
+            </tr>
+        </table><br><br><hr><br><br>
+        <p><a href="paragraph.html">Halaman Sebelumnya</a> | <a href="index.html">Halaman Utama</a> | <a href="display-image.html">Halaman Selanjutnya</a></p><br><br>
+    </div>
 </body>
 </html>
