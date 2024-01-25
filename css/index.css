@@ -1,0 +1,24 @@
+.background {
+    margin-top: 13%;
+    margin-left: 18%;
+    width: 800px;
+    height: 240px;
+    background-color: white;
+    opacity: .8;            
+}
+
+.container h1 {
+    padding: 2%;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 50px;
+}
+.container p {
+    color: black;
+    margin-bottom: 50px;
+}
+.container a {
+    font-weight: bold;
+    color: black;
+    padding: 2%;
+}
